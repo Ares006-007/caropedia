@@ -141,3 +141,32 @@ results-count {
     overflow-y: auto;
 
 }
+
+.close-btn {
+    position: absolute;
+    top: 16px; right: 20px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    color: var(--gray);
+}
+
+.model-content h2 {margin-bottom: 4px;}
+.model-content .brand {color: var(--gray); margin-bottom: 16px;}
+.model-content .specs-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 0.95rem;
+}
+
+.modal-content .spec-row span:first-child {color: var(--gray);}
+.modal-content .description { margin-top: 16px; line-height: 1.6px; color: #333;}
+ 
+footer {
+    text-align: center;
+    padding: 24px;
+    background: var(--dark);
+    color: #cfcfe0;
+    font-size: 0.85rem;
+}
