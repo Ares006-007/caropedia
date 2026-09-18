@@ -1,65 +1,30 @@
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Caropedia</title>
+        <meta name="viewport" content="width=device-width, inittial-scale=1.0">
+        <title>Caropedia the Encyclopedia of cars</title>
+
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-
         <header class="navbar">
-            <div class="logo"> Caropedia</div>
-            <nav>
+            <div class="logo">CAROPEDIA</div>
+            <nav class="nav-links">
                 <a href="#home">Home</a>
-                <a href="#browse">Browse</a>
-                <a href="#about">About</a>
+                <a href="#cars">Cars</a>
+                <a href="#brands">Brands</a>
+                <a href="#history">History</a>
             </nav>
-            </header>
-            <section class="hero" id="home">
-                <h1>Caropedia</h1>
-                <p>The free encyclopedia of cars - search, filers, and explore. </p>
-                <div class="search-box">
-                    <input type="text" id="searchinput" placeholder="search by name, brand  or type...">
-                </div>
+
+            <button class="menu-button" id="menuButton">
+                ☰
+            </button>
+        </header>
+        <main>
+            <section class="hero0" id="home">
+                
             </section>
-
-            <section class="filters" id="browse">
-                <select id="brandfilter">
-                    <option value="all">All Brands</option>
-                </select>
-                <select id="typefilter">
-                    <option value="all">All Types</option>
-                </select>
-                <select id="sortFilter">
-                    <option value="name">Sort: Name (A-Z)</option>
-                    <option value="year-desc">Sort: Year (Newest)</option>
-                    <option value="year-asc">Sort: Year (Oldest)</option>
-                    <option value="power-desc">Sort: Power (High-Low)</option>
-                </select>
-            </section>
-            <main>
-                <div class="results-count" id ="resultsCount"></div>
-                <div class="car-grid" id="carGrid"></div>
-            </main>
-            
-            <div class="modal" id="carModal">
-                <div class="modal-content">
-                    <span class="close btn" id="closeModal">&times;</span>
-                    <div id="modalBody"></div>
-                </div>
-            </div>
-
-            <footer id="about">
-                <p>Caropedia a fan made mini encyclopedia of card, built with HTML, CSS JS.</p>
-            </footer>
-
-            <script src="cars-data.js"></script>
-            <script src="script.js"></script>
-
-
-
-         
-            
-            
+        </main>
     </body>
+
 </html>
